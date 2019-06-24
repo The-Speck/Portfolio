@@ -2401,8 +2401,17 @@ input, select, textarea {
 			}
 
 				.feature-icon {
-					width: 50px;
-				}
+          width: 40px;
+          height: 41px;
+        }
+        
+        .java-text {
+          color: #5182a2;
+        }
+
+        .spring-text {
+          color: #69b82b;
+        }
 
 				.redux-text {
 					color: #7a49ba;
@@ -2422,11 +2431,19 @@ input, select, textarea {
 
 				.react-text {
 					color: #69dafb;
-				}
+        }
+        
+        .angular-text {
+          color: #c4473a;
+        }
 
-				.jq-text {
-					color: #1369ac;
-				}
+				.express-text {
+					color: #5d5f5d;
+        }
+        
+        .jq-text {
+          color: #0568ad;
+        }
 
 				.html-text {
 					color:#e44f29;
@@ -2434,11 +2451,15 @@ input, select, textarea {
 
 				.css-text {
 					color: #408ec5;
-				}
+        }
+        
+        .python-text {
+          color: #ffd845;
+        }
 
-				.wp-text {
-					color: #4a4a4a;
-				}
+        .flask-text {
+          color: #272727;
+        }
 
 /* Icons */
 
@@ -2695,6 +2716,18 @@ input, select, textarea {
 			width: 48%;
 		}
 
+			.express > h1 {
+				font-family: serif;
+				font-size: 2.5em;
+				text-align: center;
+				color: #5c5e5c;
+		    transform: perspective(1px) translateZ(0);
+		    transition-duration: 1s;
+				transition-property: color;
+				height: 2.5em;
+		    line-height: 3em;
+			}
+
 			.casa-mare > h1 {
 				font-family: 'Pacifico', cursive;
 				font-size: 3em;
@@ -2706,7 +2739,6 @@ input, select, textarea {
 				height: 2.5em;
 		    line-height: 3em;
 			}
-
 
 			.fight-flight > h1 {
 				font-family: 'Russo One', sans-serif;
@@ -2731,6 +2763,10 @@ input, select, textarea {
 				height: 2.5em;
 			}
 
+			.express > img {
+				top: 30%;
+			}
+
 			.casa-mare > img {
 				top: 30%;
 			}
@@ -2741,6 +2777,10 @@ input, select, textarea {
 
 			.domination > img {
 				top: 25%;
+			}
+
+			.express:hover > h1 {
+				color: white;
 			}
 
 			.casa-mare:hover > h1 {
@@ -2762,6 +2802,13 @@ input, select, textarea {
 				opacity: 0;
 				transition-duration: 1s;
 				transition-property: opacity, width, left, top;
+			}
+
+			.express:hover .cm-image {
+				width: 100px;
+				left: calc(37% - 25px);
+				top: calc(30% - 25px);
+				opacity: 1;
 			}
 
 			.casa-mare:hover .cm-image {
