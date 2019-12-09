@@ -2716,7 +2716,7 @@ input, select, textarea {
 			width: 48%;
 		}
 
-			.express > h1 {
+			.querybuilder > h1 {
 				font-family: serif;
 				font-size: 2.5em;
 				text-align: center;
@@ -2763,7 +2763,7 @@ input, select, textarea {
 				height: 2.5em;
 			}
 
-			.express > img {
+			.querybuilder > img {
 				top: 30%;
 			}
 
@@ -2779,7 +2779,7 @@ input, select, textarea {
 				top: 25%;
 			}
 
-			.express:hover > h1 {
+			.querybuilder:hover > h1 {
 				color: white;
 			}
 
@@ -2804,7 +2804,7 @@ input, select, textarea {
 				transition-property: opacity, width, left, top;
 			}
 
-			.express:hover .cm-image {
+			.querybuilder:hover .cm-image {
 				width: 100px;
 				left: calc(37% - 25px);
 				top: calc(30% - 25px);
